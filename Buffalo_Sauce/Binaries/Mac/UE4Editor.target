@@ -2737,10 +2737,6 @@
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/UIWS/Binaries/Mac/UE4Editor-UIWS.dylib",
-			"Type": "DynamicLibrary"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Media/AndroidCamera/Binaries/Mac/UE4Editor-AndroidCameraEditor.dylib",
 			"Type": "DynamicLibrary"
 		},
@@ -3854,10 +3850,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Lumin/MagicLeapTablet/Binaries/Mac/UE4Editor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/UIWS/Binaries/Mac/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
 		{
