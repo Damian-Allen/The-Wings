@@ -1,0 +1,841 @@
+﻿Log file open, 10/16/20 13:36:36
+LogInit: Display: Running engine for game: Buffalo_Sauce
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.166612
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -4:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin EpicLeaderboard
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13942748
+LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz, GPU: Intel(R) Iris(TM) Pro Graphics 5200
+LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.10.16-16.36.36:372][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.10.16-16.36.36:372][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.10.16-16.36.36:372][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Saved/Config/Windows/Engine.ini]
+[2020.10.16-16.36.36:372][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.10.16-16.36.36:372][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Saved/Config/Windows/Engine.ini]
+[2020.10.16-16.36.36:372][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Saved/Config/Windows/Engine.ini]
+[2020.10.16-16.36.36:372][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.10.16-16.36.36:372][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.10.16-16.36.36:372][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.10.16-16.36.36:372][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.10.16-16.36.36:372][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.10.16-16.36.36:372][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.10.16-16.36.36:372][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.10.16-16.36.36:372][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.10.16-16.36.36:372][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.10.16-16.36.36:372][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.10.16-16.36.36:372][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.10.16-16.36.36:372][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.10.16-16.36.36:372][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.10.16-16.36.36:372][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.10.16-16.36.36:372][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Saved/Config/Windows/Engine.ini]
+[2020.10.16-16.36.36:372][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.10.16-16.36.36:372][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.10.16-16.36.36:372][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.10.16-16.36.36:372][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.10.16-16.36.36:372][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.10.16-16.36.36:372][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.10.16-16.36.36:372][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.10.16-16.36.36:372][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.10.16-16.36.36:372][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.10.16-16.36.36:372][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.10.16-16.36.36:372][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.10.16-16.36.36:372][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.10.16-16.36.36:372][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.10.16-16.36.36:372][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Saved/Config/Windows/Engine.ini]
+[2020.10.16-16.36.36:372][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Saved/Config/Windows/Engine.ini]
+[2020.10.16-16.36.36:374][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Saved/Config/Windows/Scalability.ini]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Saved/Config/Windows/Scalability.ini]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Saved/Config/Windows/Scalability.ini]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Saved/Config/Windows/Scalability.ini]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.16-16.36.36:374][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Saved/Config/Windows/Scalability.ini]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Saved/Config/Windows/Scalability.ini]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Saved/Config/Windows/Scalability.ini]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Saved/Config/Windows/Scalability.ini]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.16-16.36.36:375][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.16-16.36.36:375][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.10.16-16.36.36:375][  0]LogHAL: Display: Platform has ~ 16 GB [17063690240 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.10.16-16.36.36:375][  0]LogInit: Going up to parent DeviceProfile []
+[2020.10.16-16.36.36:375][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Saved/Config/Windows/Scalability.ini]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Saved/Config/Windows/Scalability.ini]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Saved/Config/Windows/Scalability.ini]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.16-16.36.36:375][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Saved/Config/Windows/Scalability.ini]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Saved/Config/Windows/Scalability.ini]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Saved/Config/Windows/Scalability.ini]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.16-16.36.36:376][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Saved/Config/Windows/Scalability.ini]
+[2020.10.16-16.36.36:376][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.16-16.36.36:377][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.16-16.36.36:377][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Saved/Config/Windows/Scalability.ini]
+[2020.10.16-16.36.36:377][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.16-16.36.36:377][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.16-16.36.36:377][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.16-16.36.36:377][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.16-16.36.36:377][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.16-16.36.36:377][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.16-16.36.36:377][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.16-16.36.36:377][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.10.16-16.36.36:377][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.10.16-16.36.36:377][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.10.16-16.36.36:377][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.10.16-16.36.36:377][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Saved/Config/Windows/Engine.ini]
+[2020.10.16-16.36.36:377][  0]LogInit: Computer: DESKTOP-ND7JG5J
+[2020.10.16-16.36.36:377][  0]LogInit: User: damia
+[2020.10.16-16.36.36:377][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.10.16-16.36.36:377][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.10.16-16.36.36:377][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.10.16-16.36.36:377][  0]LogMemory: Platform Memory Stats for Windows
+[2020.10.16-16.36.36:377][  0]LogMemory: Process Physical Memory: 114.35 MB used, 114.35 MB peak
+[2020.10.16-16.36.36:377][  0]LogMemory: Process Virtual Memory: 112.45 MB used, 112.45 MB peak
+[2020.10.16-16.36.36:377][  0]LogMemory: Physical Memory: 6387.81 MB used,  9885.39 MB free, 16273.20 MB total
+[2020.10.16-16.36.36:377][  0]LogMemory: Virtual Memory: 5159.41 MB used,  134212568.00 MB free, 134217728.00 MB total
+[2020.10.16-16.36.36:381][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.10.16-16.36.36:421][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.10.16-16.36.36:421][  0]LogInit: Using OS detected language (en-US).
+[2020.10.16-16.36.36:421][  0]LogInit: Using OS detected locale (en-CA).
+[2020.10.16-16.36.36:426][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.10.16-16.36.36:578][  0]LogInit: Setting process to per monitor DPI aware
+[2020.10.16-16.36.36:600][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.10.16-16.36.36:600][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.10.16-16.36.36:749][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.16-16.36.36:749][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.10.16-16.36.36:749][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.10.16-16.36.36:749][  0]LogD3D11RHI: D3D11 adapters:
+[2020.10.16-16.36.36:811][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980M' (Feature Level 11_0)
+[2020.10.16-16.36.36:811][  0]LogD3D11RHI:       4055/0/8136 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.10.16-16.36.36:818][  0]LogD3D11RHI:    1. 'Intel(R) Iris(TM) Pro Graphics 5200' (Feature Level 11_0)
+[2020.10.16-16.36.36:818][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.10.16-16.36.36:819][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.10.16-16.36.36:819][  0]LogD3D11RHI:       0/0/8136 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.10.16-16.36.36:819][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.10.16-16.36.36:824][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.10.16-16.36.36:824][  0]LogD3D11RHI:     GPU DeviceId: 0x13d7 (for the marketing name, search the web for "GPU Device Id")
+[2020.10.16-16.36.36:824][  0]LogWindows: EnumDisplayDevices:
+[2020.10.16-16.36.36:824][  0]LogWindows:    0. 'Intel(R) Iris(TM) Pro Graphics 5200' (P:1 D:1)
+[2020.10.16-16.36.36:825][  0]LogWindows:    1. 'Intel(R) Iris(TM) Pro Graphics 5200' (P:0 D:0)
+[2020.10.16-16.36.36:825][  0]LogWindows:    2. 'Intel(R) Iris(TM) Pro Graphics 5200' (P:0 D:0)
+[2020.10.16-16.36.36:826][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.10.16-16.36.36:826][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980M
+[2020.10.16-16.36.36:826][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.10.16-16.36.36:826][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.10.16-16.36.36:826][  0]LogRHI: Texture pool is 2839 MB (70% of 4055 MB)
+[2020.10.16-16.36.36:868][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.10.16-16.36.36:870][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.10.16-16.36.36:870][  0]LogD3D11RHI: Async texture creation enabled
+[2020.10.16-16.36.36:870][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.10.16-16.36.36:889][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.10.16-16.36.37:183][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.10.16-16.36.37:205][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.10.16-16.36.37:205][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.10.16-16.36.37:205][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.10.16-16.36.37:205][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.10.16-16.36.37:205][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.10.16-16.36.37:205][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.10.16-16.36.37:205][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.10.16-16.36.37:205][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.10.16-16.36.37:205][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.10.16-16.36.37:205][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.10.16-16.36.37:229][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.10.16-16.36.37:229][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.10.16-16.36.37:238][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.10.16-16.36.37:248][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.10.16-16.36.37:257][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.10.16-16.36.37:265][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.10.16-16.36.37:273][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.10.16-16.36.37:281][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.10.16-16.36.37:290][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.10.16-16.36.37:314][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.10.16-16.36.37:315][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.10.16-16.36.37:329][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.10.16-16.36.37:329][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.10.16-16.36.37:337][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.10.16-16.36.37:346][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.10.16-16.36.37:354][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.10.16-16.36.37:363][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.10.16-16.36.37:363][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.10.16-16.36.37:369][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.10.16-16.36.37:416][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Intermediate/Shaders/WorkingDirectory/25272/).
+[2020.10.16-16.36.37:416][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/damia/AppData/Local/Temp/UnrealShaderWorkingDir/251CDAA24BECE8983191B2A92AAC8579/'.
+[2020.10.16-16.36.37:416][  0]LogXGEController: Cleaning working directory: C:/Users/damia/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.10.16-16.36.37:416][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.10.16-16.36.37:416][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.10.16-16.36.37:417][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.10.16-16.36.38:210][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.10.16-16.36.38:256][  0]LogDerivedDataCache: Loaded boot cache 0.05s 75MB C:/Users/damia/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.10.16-16.36.38:256][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/damia/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.10.16-16.36.38:256][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.10.16-16.36.38:256][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.10.16-16.36.38:257][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.16-16.36.38:257][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.10.16-16.36.38:267][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.10.16-16.36.38:267][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.16-16.36.38:267][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.10.16-16.36.38:268][  0]LogDerivedDataCache: Using Local data cache path C:/Users/damia/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.10.16-16.36.38:268][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.10.16-16.36.38:268][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.10.16-16.36.38:318][  0]LogSlate: Using FreeType 2.10.0
+[2020.10.16-16.36.38:318][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.10.16-16.36.38:350][  0]LogAssetRegistry: FAssetRegistry took 0.0023 seconds to start up
+[2020.10.16-16.36.38:578][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.16-16.36.38:684][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.10.16-16.36.38:684][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.10.16-16.36.38:684][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.10.16-16.36.38:684][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.10.16-16.36.38:684][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.10.16-16.36.38:697][  0]LogNetVersion: Buffalo_Sauce 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 69185884)
+[2020.10.16-16.36.39:103][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000024603788280), frame # 0
+[2020.10.16-16.36.39:103][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000246036DC680), frame # 0
+[2020.10.16-16.36.39:104][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000246036FDE00), frame # 0
+[2020.10.16-16.36.39:179][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.066685 seconds
+[2020.10.16-16.36.39:186][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.10.16-16.36.39:186][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.10.16-16.36.39:186][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.10.16-16.36.39:568][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.10.16-16.36.39:571][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.10.16-16.36.39:632][  0]SourceControl: Source control is disabled
+[2020.10.16-16.36.39:632][  0]SourceControl: Source control is disabled
+[2020.10.16-16.36.39:635][  0]SourceControl: Source control is disabled
+[2020.10.16-16.36.39:637][  0]SourceControl: Source control is disabled
+[2020.10.16-16.36.39:642][  0]SourceControl: Source control is disabled
+[2020.10.16-16.36.39:826][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.10.16-16.36.39:841][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.16-16.36.39:841][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.16-16.36.39:881][  0]LogOcInput: OculusInput pre-init called
+[2020.10.16-16.36.39:890][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.10.16-16.36.39:890][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.10.16-16.36.39:948][  0]LogEngine: Initializing Engine...
+[2020.10.16-16.36.39:949][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.16-16.36.39:949][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.10.16-16.36.39:950][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.10.16-16.36.40:058][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.10.16-16.36.40:064][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.10.16-16.36.40:064][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024609707C00), frame # 0
+[2020.10.16-16.36.40:064][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024609760B80), frame # 0
+[2020.10.16-16.36.40:083][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.16-16.36.40:083][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.16-16.36.40:083][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.16-16.36.40:083][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.16-16.36.40:083][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.16-16.36.40:083][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.16-16.36.40:083][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.16-16.36.40:083][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.16-16.36.40:083][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.16-16.36.40:083][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.16-16.36.40:094][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.16-16.36.40:094][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.10.16-16.36.40:120][  0]LogAudioMixer: Display: Using Audio Device Speakers (Sound Blaster Recon3Di)
+[2020.10.16-16.36.40:125][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.16-16.36.40:127][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.16-16.36.40:127][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.16-16.36.40:128][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.16-16.36.40:128][  0]LogInit: FAudioDevice initialized.
+[2020.10.16-16.36.40:129][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.10.16-16.36.40:210][  0]LogDerivedDataCache: Saved boot cache 0.08s 75MB C:/Users/damia/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.10.16-16.36.40:214][  0]LogInit: Texture streaming: Enabled
+[2020.10.16-16.36.40:227][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.10.16-16.36.40:227][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={9C14B8FA-4D33-E273-A598-8CBD362B7A16}
+[2020.10.16-16.36.40:227][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.10.16-16.36.40:228][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.10.16-16.36.40:393][  0]LogInit: Transaction tracking system initialized
+[2020.10.16-16.36.40:409][  0]BlueprintLog: New page: Editor Load
+[2020.10.16-16.36.40:466][  0]LocalizationService: Localization service is disabled
+[2020.10.16-16.36.40:603][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.10.16-16.36.40:603][  0]LogCook: Display: Mobile HDR setting 1
+[2020.10.16-16.36.40:710][  0]LogFileCache: Scanning file cache for directory 'C:/Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Content/' took 0.01s
+[2020.10.16-16.36.40:987][  0]SourceControl: Source control is disabled
+[2020.10.16-16.36.40:987][  0]LogUnrealEdMisc: Loading editor; pre map load, took 5.959
+[2020.10.16-16.36.40:987][  0]Cmd: MAP LOAD FILE="../../../../../../Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.16-16.36.40:987][  0]LightingResults: New page: Lighting Build
+[2020.10.16-16.36.40:988][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.10.16-16.36.40:988][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.16-16.36.40:989][  0]MapCheck: New page: Map Check
+[2020.10.16-16.36.40:989][  0]LightingResults: New page: Lighting Build
+[2020.10.16-16.36.41:003][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024609707C00), frame # 0
+[2020.10.16-16.36.41:004][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024609760B80), frame # 0
+[2020.10.16-16.36.41:005][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2020.10.16-16.36.41:446][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.10.16-16.36.41:446][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000246169A3E00), frame # 0
+[2020.10.16-16.36.41:446][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024611199580), frame # 0
+[2020.10.16-16.36.41:462][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.16-16.36.41:481][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2020.10.16-16.36.41:482][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.16-16.36.41:482][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.12ms to complete.
+[2020.10.16-16.36.41:482][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.495
+[2020.10.16-16.36.41:483][  0]LogUnrealEdMisc: Total Editor Startup Time, took 6.456
+[2020.10.16-16.36.41:632][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.16-16.36.41:639][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.16-16.36.41:647][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.16-16.36.41:653][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.16-16.36.41:659][  0]LogCollectionManager: Loaded 0 collections in 0.000703 seconds
+[2020.10.16-16.36.41:671][  0]LogFileCache: Scanning file cache for directory 'C:/Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Saved/Collections/' took 0.00s
+[2020.10.16-16.36.41:671][  0]LogFileCache: Scanning file cache for directory 'C:/Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Content/Developers/damia/Collections/' took 0.00s
+[2020.10.16-16.36.41:671][  0]LogFileCache: Scanning file cache for directory 'C:/Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Content/Collections/' took 0.00s
+[2020.10.16-16.36.41:671][  0]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 3428 classes and 824 folders.
+[2020.10.16-16.36.41:674][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.10.16-16.36.41:718][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.10.16-16.36.41:721][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2020.10.16-16.36.41:773][  0]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.10.16-16.36.41:775][  0]LogSlate: Took 0.000408 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.10.16-16.36.41:780][  0]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.10.16-16.36.41:852][  0]LogRenderer: Reallocating scene render targets to support 1076x572 Format 10 NumSamples 1 (Frame:1).
+[2020.10.16-16.36.41:968][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.10.16-16.36.41:968][  0]LogLoad: (Engine Initialization) Total time: 6.94 seconds
+[2020.10.16-16.36.41:968][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.10.16-16.36.42:027][  0]LogAssetRegistry: Asset discovery search completed in 3.6766 seconds
+[2020.10.16-16.36.42:030][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2020.10.16-16.36.42:032][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.10.16-16.36.42:051][  0]LogSlate: Took 0.000098 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.16-16.37.28:845][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.10.16-16.37.30:097][617]LogSlate: Window 'Delete Assets' being destroyed
+[2020.10.16-16.37.30:110][617]LogSlate: Took 0.000118 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.16-16.37.30:214][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.10.16-16.37.30:222][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2020.10.16-16.37.30:230][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2020.10.16-16.37.30:238][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2020.10.16-16.37.30:246][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2020.10.16-16.37.30:255][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2020.10.16-16.37.30:264][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2020.10.16-16.37.30:274][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2020.10.16-16.37.30:283][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2020.10.16-16.37.30:292][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2020.10.16-16.37.30:312][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.10.16-16.37.30:322][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2020.10.16-16.37.41:769][294]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animals_models/Chicken" FILE="../../../../../../Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Content/Animals_models/Chicken.uasset" SILENT=true
+[2020.10.16-16.37.41:784][294]LogSavePackage: Moving '../../../../../../Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Saved/Chicken04B8695E491BC72A5A599BB2E1A81FBE.tmp' to '../../../../../../Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Content/Animals_models/Chicken.uasset'
+[2020.10.16-16.37.41:873][294]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.10.16-16.37.41:890][294]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.10.16-16.37.41:898][294]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.10.16-16.37.41:978][294]AssetCheck: New page: Asset Save: Chicken
+[2020.10.16-16.37.41:978][294]LogContentValidation: Display: Validating StaticMesh /Game/Animals_models/Chicken.Chicken
+[2020.10.16-16.37.51:024][831]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animals_models/Cat" FILE="../../../../../../Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Content/Animals_models/Cat.uasset" SILENT=true
+[2020.10.16-16.37.51:042][831]LogSavePackage: Moving '../../../../../../Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Saved/Cat8365C7DB40F005D6ED615FBCC49ED7F2.tmp' to '../../../../../../Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Content/Animals_models/Cat.uasset'
+[2020.10.16-16.37.51:134][831]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2020.10.16-16.37.51:152][831]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.10.16-16.37.51:160][831]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.10.16-16.37.51:237][831]AssetCheck: New page: Asset Save: Cat
+[2020.10.16-16.37.51:237][831]LogContentValidation: Display: Validating StaticMesh /Game/Animals_models/Cat.Cat
+[2020.10.16-16.37.53:213][947]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Animals_models/EverythingLibrary_Animals_001_base_48.EverythingLibrary_Animals_001_base_48
+[2020.10.16-16.37.53:611][947]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.10.16-16.37.53:611][947]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.16-16.37.53:833][947]LogRenderer: Reallocating scene render targets to support 1432x920 Format 10 NumSamples 1 (Frame:1).
+[2020.10.16-16.37.53:833][947]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.10.16-16.37.56:483][102]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.10.16-16.37.56:483][102]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.16-16.38.03:684][523]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animals_models/Rat" FILE="../../../../../../Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Content/Animals_models/Rat.uasset" SILENT=true
+[2020.10.16-16.38.03:705][523]LogSavePackage: Moving '../../../../../../Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Saved/Rat65AAAF7A4463E398AE5182802552A4CF.tmp' to '../../../../../../Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Content/Animals_models/Rat.uasset'
+[2020.10.16-16.38.03:798][523]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.10.16-16.38.03:813][523]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.10.16-16.38.03:821][523]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2020.10.16-16.38.03:897][523]AssetCheck: New page: Asset Save: Rat
+[2020.10.16-16.38.03:897][523]LogContentValidation: Display: Validating StaticMesh /Game/Animals_models/Rat.Rat
+[2020.10.16-16.38.09:981][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animals_models/Dog" FILE="../../../../../../Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Content/Animals_models/Dog.uasset" SILENT=true
+[2020.10.16-16.38.10:000][880]LogSavePackage: Moving '../../../../../../Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Saved/Dog2A16F45A4B94ADE7A56EBC9209F002D8.tmp' to '../../../../../../Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Content/Animals_models/Dog.uasset'
+[2020.10.16-16.38.10:092][880]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2020.10.16-16.38.10:106][880]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.10.16-16.38.10:114][880]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2020.10.16-16.38.10:196][880]AssetCheck: New page: Asset Save: Dog
+[2020.10.16-16.38.10:196][880]LogContentValidation: Display: Validating StaticMesh /Game/Animals_models/Dog.Dog
+[2020.10.16-16.38.12:386][ 10]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Animals_models/Dog.Dog
+[2020.10.16-16.38.12:521][ 10]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.10.16-16.38.12:521][ 10]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.16-16.38.14:637][122]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.10.16-16.38.14:637][122]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.16-16.38.15:719][178]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Animals_models/EverythingLibrary_Animals_001_base_89.EverythingLibrary_Animals_001_base_89
+[2020.10.16-16.38.15:857][178]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.10.16-16.38.15:857][178]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.16-16.38.18:035][294]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.10.16-16.38.18:035][294]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.16-16.38.31:604][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2020.10.16-16.38.33:222][ 96]LogSlate: Window 'Delete Assets' being destroyed
+[2020.10.16-16.38.33:317][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2020.10.16-16.38.33:330][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.10.16-16.38.33:340][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2020.10.16-16.38.39:665][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animals_models/Unicor" FILE="../../../../../../Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Content/Animals_models/Unicor.uasset" SILENT=true
+[2020.10.16-16.38.39:683][467]LogSavePackage: Moving '../../../../../../Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Saved/Unicor47B349394CB0232AC2797AAACCB5F24B.tmp' to '../../../../../../Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Content/Animals_models/Unicor.uasset'
+[2020.10.16-16.38.39:762][467]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2020.10.16-16.38.39:777][467]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.10.16-16.38.39:785][467]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2020.10.16-16.38.39:865][467]AssetCheck: New page: Asset Save: Unicor
+[2020.10.16-16.38.39:865][467]LogContentValidation: Display: Validating StaticMesh /Game/Animals_models/Unicor.Unicor
+[2020.10.16-16.38.45:863][820]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animals_models/Unicorn" FILE="../../../../../../Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Content/Animals_models/Unicorn.uasset" SILENT=true
+[2020.10.16-16.38.45:879][820]LogSavePackage: Moving '../../../../../../Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Saved/Unicorn4B64E30F4D2F410C81875FBA4C4BC73A.tmp' to '../../../../../../Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Content/Animals_models/Unicorn.uasset'
+[2020.10.16-16.38.45:958][820]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2020.10.16-16.38.45:972][820]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.10.16-16.38.45:981][820]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2020.10.16-16.38.46:062][820]AssetCheck: New page: Asset Save: Unicorn
+[2020.10.16-16.38.46:062][820]LogContentValidation: Display: Validating StaticMesh /Game/Animals_models/Unicorn.Unicorn
+[2020.10.16-16.38.48:870][986]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Animals_models/Cat.Cat
+[2020.10.16-16.38.49:008][986]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.10.16-16.38.49:008][986]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.16-16.39.04:260][834]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Animals_models/Chicken.Chicken
+[2020.10.16-16.39.04:447][834]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.10.16-16.39.04:447][834]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.16-16.39.07:261][969]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Animals_models/Dog.Dog
+[2020.10.16-16.39.07:415][969]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.10.16-16.39.07:415][969]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.16-16.39.09:477][ 55]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Animals_models/Rat.Rat
+[2020.10.16-16.39.09:677][ 55]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2020.10.16-16.39.09:677][ 55]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.16-16.39.11:423][112]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Animals_models/Unicorn.Unicorn
+[2020.10.16-16.39.11:586][112]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2020.10.16-16.39.11:586][112]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.16-16.39.18:635][416]LogStaticMesh: Building static mesh Cat...
+[2020.10.16-16.39.18:702][416]LogStaticMesh: Built static mesh [0.07s] /Game/Animals_models/Cat.Cat
+[2020.10.16-16.39.24:439][682]LogStaticMesh: Building static mesh Chicken...
+[2020.10.16-16.39.24:486][682]LogStaticMesh: Built static mesh [0.05s] /Game/Animals_models/Chicken.Chicken
+[2020.10.16-16.39.28:488][869]LogStaticMesh: Building static mesh Dog...
+[2020.10.16-16.39.28:537][869]LogStaticMesh: Built static mesh [0.05s] /Game/Animals_models/Dog.Dog
+[2020.10.16-16.39.34:003][133]LogStaticMesh: Building static mesh Rat...
+[2020.10.16-16.39.34:050][133]LogStaticMesh: Built static mesh [0.05s] /Game/Animals_models/Rat.Rat
+[2020.10.16-16.39.37:997][312]LogStaticMesh: Building static mesh Unicorn...
+[2020.10.16-16.39.38:053][312]LogStaticMesh: Built static mesh [0.06s] /Game/Animals_models/Unicorn.Unicorn
+[2020.10.16-16.39.39:487][361]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2020.10.16-16.39.39:487][361]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.16-16.39.40:441][397]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2020.10.16-16.39.40:441][397]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.16-16.39.41:419][446]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.10.16-16.39.41:419][446]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.16-16.39.42:241][487]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.10.16-16.39.42:241][487]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.16-16.39.43:324][545]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.10.16-16.39.43:324][545]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.16-16.39.47:423][780]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.10.16-16.40.00:504][780]LogSlate: Window 'Delete Assets' being destroyed
+[2020.10.16-16.40.01:548][840]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Animals_models/Rat.Rat
+[2020.10.16-16.40.01:686][840]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2020.10.16-16.40.01:686][840]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.16-16.40.03:583][940]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.10.16-16.40.03:585][940]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.011
+[2020.10.16-16.40.03:586][940]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animals_models/Chicken] ([1] browsable assets)...
+[2020.10.16-16.40.03:596][940]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Animals_models/Chicken.Chicken]
+[2020.10.16-16.40.03:596][940]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animals_models/Chicken]
+[2020.10.16-16.40.03:616][940]LogSavePackage: Moving '../../../../../../Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Saved/Chicken_Auto13714C2094E4206F8BB1EE0989601C262.tmp' to '../../../../../../Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Saved/Autosaves/Game/Animals_models/Chicken_Auto1.uasset'
+[2020.10.16-16.40.03:617][940]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animals_models/Cat] ([1] browsable assets)...
+[2020.10.16-16.40.03:626][940]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Animals_models/Cat.Cat]
+[2020.10.16-16.40.03:626][940]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animals_models/Cat]
+[2020.10.16-16.40.03:650][940]LogSavePackage: Moving '../../../../../../Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Saved/Cat_Auto1B8A0B7BC41BEFE2036F37BB2B66A4BAE.tmp' to '../../../../../../Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Saved/Autosaves/Game/Animals_models/Cat_Auto1.uasset'
+[2020.10.16-16.40.03:651][940]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animals_models/Rat] ([1] browsable assets)...
+[2020.10.16-16.40.03:661][940]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Animals_models/Rat.Rat]
+[2020.10.16-16.40.03:661][940]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animals_models/Rat]
+[2020.10.16-16.40.03:682][940]LogSavePackage: Moving '../../../../../../Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Saved/Rat_Auto1AB2C36774AFBCF3EEB9A4DA82FABD8FC.tmp' to '../../../../../../Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Saved/Autosaves/Game/Animals_models/Rat_Auto1.uasset'
+[2020.10.16-16.40.03:682][940]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animals_models/Dog] ([1] browsable assets)...
+[2020.10.16-16.40.03:691][940]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Animals_models/Dog.Dog]
+[2020.10.16-16.40.03:691][940]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animals_models/Dog]
+[2020.10.16-16.40.03:712][940]LogSavePackage: Moving '../../../../../../Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Saved/Dog_Auto13F07A021467536CACCC69A95AF8A7C86.tmp' to '../../../../../../Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Saved/Autosaves/Game/Animals_models/Dog_Auto1.uasset'
+[2020.10.16-16.40.03:712][940]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animals_models/Unicorn] ([1] browsable assets)...
+[2020.10.16-16.40.03:721][940]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Animals_models/Unicorn.Unicorn]
+[2020.10.16-16.40.03:722][940]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animals_models/Unicorn]
+[2020.10.16-16.40.03:742][940]LogSavePackage: Moving '../../../../../../Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Saved/Unicorn_Auto1972BA28A42583EBA18DCE9B925A5FB6B.tmp' to '../../../../../../Users/damia/OneDrive/Documents/The-Wings/Buffalo_Sauce/Saved/Autosaves/Game/Animals_models/Unicorn_Auto1.uasset'
+[2020.10.16-16.40.03:743][940]LogFileHelpers: Auto-saving content packages took 0.157
+[2020.10.16-16.40.12:229][443]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2020.10.16-16.40.12:229][443]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.16-16.40.14:966][601]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.10.16-16.40.16:362][601]LogSlate: Window 'Delete Assets' being destroyed
+[2020.10.16-16.40.16:461][601]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Animals_models/Mat_Standard.Mat_Standard
+[2020.10.16-16.40.16:954][601]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.10.16-16.40.16:964][601]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.10.16-16.40.16:972][601]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.10.16-16.40.18:081][664]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2020.10.16-16.40.19:262][664]LogSlate: Window 'Delete Assets' being destroyed
+[2020.10.16-16.40.19:363][664]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.10.16-16.40.19:380][664]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.10.16-16.40.19:388][664]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.10.16-16.40.20:915][752]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2020.10.16-16.40.21:816][752]LogSlate: Window 'Delete Assets' being destroyed
+[2020.10.16-16.40.21:913][752]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.10.16-16.40.21:925][752]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.10.16-16.40.21:933][752]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2020.10.16-16.40.29:724][213]LogActorFactory: Actor Factory created Low_Poly_City_Cars_CAR_02
+[2020.10.16-16.40.31:040][292]LogActorFactory: Actor Factory created Low_Poly_City_Cars_CAR_02
+[2020.10.16-16.40.32:602][383]Cmd: DELETE
+[2020.10.16-16.40.32:602][383]Cmd: ACTOR DELETE
+[2020.10.16-16.40.32:615][383]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.16-16.40.32:623][383]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2020.10.16-16.40.32:628][383]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2020.10.16-16.40.32:635][384]LogD3D11RHI: Error: Result failed 
+ at D:/Build/++UE4+Licensee/Sync/Engine/Source/Runtime/Windows/D3D11RHI/Private/D3D11Query.cpp:348 
+ with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DEVICE_REMOVED
+[2020.10.16-16.40.32:635][384]LogRHI: Error: [Aftermath] Status: PageFault
+[2020.10.16-16.40.32:635][384]LogRHI: Error: [Aftermath] GPU Stack Dump
+[2020.10.16-16.40.32:635][384]LogRHI: Error: [Aftermath] 0: FRAME
+[2020.10.16-16.40.32:635][384]LogRHI: Error: [Aftermath] 1: FRAME
+[2020.10.16-16.40.32:635][384]LogRHI: Error: [Aftermath] 2: Scene
+[2020.10.16-16.40.32:635][384]LogRHI: Error: [Aftermath] 3: PostProcessing
+[2020.10.16-16.40.32:635][384]LogRHI: Error: [Aftermath] 4: CompositeEditorPrimitives
+[2020.10.16-16.40.32:636][384]LogRHI: Error: [Aftermath] 5: EditorPrimitives
+[2020.10.16-16.40.32:636][384]LogRHI: Error: [Aftermath] GPU Stack Dump
+[2020.10.16-16.40.32:650][385]LogD3D11RHI: [Aftermath] GDynamicRHI=00000246682500C0, GDX11NVAfterMathEnabled=1, Result=0x00000001, bDeviceActive=0
+[2020.10.16-16.40.32:650][385]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2020.10.16-16.40.34:103][386]LogWindows: FPlatformMisc::RequestExit(0)
+[2020.10.16-16.40.34:103][386]LogCore: Engine exit requested (reason: Win RequestExit)
+[2020.10.16-16.40.34:103][386]LogWindows: FPlatformMisc::RequestExit(1)
+[2020.10.16-16.40.34:103][386]LogCore: Engine exit requested (reason: Win RequestExit; note: exit was already requested)
+[2020.10.16-16.40.34:112][386]Log file closed, 10/16/20 13:40:34
